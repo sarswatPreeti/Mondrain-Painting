@@ -1,0 +1,72 @@
+.flex-container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.grid-container
+{
+    height: 1631px;
+    width: 1160px;
+    display: grid;
+    background-color: black;
+    gap: 15px;
+    grid-template-rows: 75px 87px 91px 134px 186px 77px 159px 81px 138px 78px 81px 186px 78px;
+    grid-template-columns: 92px 58px 249px 152px 331px 130px 58px;
+}
+
+.item{
+    background-color: whitesmoke;
+}
+
+.white{
+    background-color: rgb(209 210 210);
+}
+
+.red{
+    background-color: rgb(188 7 0);
+}
+
+.black{
+    background-color: rgb(0 0 0);
+}
+
+.yellow{
+    background-color: rgb(251 196 8);
+}
+
+.blue{
+    background-color: rgb(14 42 139);
+}
+
+.SRow4{
+    grid-row: span 4;
+}
+
+.SRow2{
+    grid-row: span 2;
+}
+
+.SCol3{
+    grid-column: span 3;
+}
+
+.SRow3{
+    grid-row: span 3;
+}
+
+.SRow5{
+    grid-row: span 5;
+}
+
+.SCol2{
+    grid-column: span 2;
+}
+
+.Scol4{
+    grid-column: span 4;
+}

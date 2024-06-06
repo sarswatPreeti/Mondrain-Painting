@@ -1,0 +1,82 @@
+.flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.grid-container{
+    height: 835px;
+    width: 842px;
+    display: grid;
+    background-color: black;
+    gap: 15px;
+    grid-template-rows: 105px 191px 188px 88px 83px 43px 47px;
+    grid-template-columns: 100px 90px 90px 190px 112px 112px 58px;
+}
+
+.item{
+    background: whitesmoke;
+}
+
+.blue-gray{
+    background-color: rgb(203 210 218);
+}
+
+.Light-gray{
+    background-color: rgb(209 210 210);
+}
+
+.SCol2{
+    grid-column: span 2;
+}
+
+.SRow2{
+    grid-row: span 2;
+}
+
+.SCol3{
+    grid-column: span 3;
+}
+
+.SRow4{
+    grid-row: span 4;
+}
+
+.SRow3{
+    grid-row: span 3;
+}
+
+#golden-yellow{
+    background-color: rgb(224 185 76);
+}
+
+#Dark-Terra-Cotta{
+    background-color: rgb(189 66 46);
+}
+
+#Sunray{
+    background-color: rgb(226 193 86);
+}
+
+#Dark-Jungle-Green{
+    background-color: rgb(23 29 20);
+}
+
+#mustard-yellow{
+    background-color: rgb(223 182 77);
+}
+
+#Dark-Cerulean{
+    background-color: rgb(29 63 113);
+}
+
+#Medium-Carmine{
+    background-color: rgb(184 65 48);
+}
+
+#Black-Olive{
+    background-color: rgb(15 21 13);
+}
